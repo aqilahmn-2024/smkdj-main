@@ -8,12 +8,12 @@ const Footer = () => {
                     <div className="grid gap-y-10 gap-x-4 sm:grid-cols-2 lg:grid-cols-2">
                         <div className="flex items-center justify-center p-2 sm:justify-end  lg:justify-end">
                             <ul className="flex flex-col gap-3 font-bold">
-                                <img src="/assets/images/fpgsc-logo-2.png" alt="plurk" className="h-[90px] md:h-[120px]" />
+                                <img src="/assets/images/school-logo.png" alt="school-logo" className="h-[90px] md:h-[120px]" />
                             </ul>
                         </div>
                         <div className="flex w-full items-center justify-center p-2 sm:w-[310px] sm:justify-start">
                             <div className="flex w-full justify-center">
-                                <img src="/assets/images/md-footer.png" alt="plurk" className="scale-90" />
+                                <img src="/assets/images/logo-korporat-kpm-bm.jpg" alt="kpm-logo" className="scale-90" />
                             </div>
                         </div>
                     </div>
@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="bg-black py-2 dark:border-t-2 dark:border-white/5 lg:py-0">
                 <div className="container">
                     <p className="pt-3 pb-3 text-center text-sm text-white md:order-1 md:mt-0 md:hidden lg:text-sm">
-                        &copy; {new Date().getFullYear()} FPG Solution & Consultancy Sdn. Bhd.
+                        &copy; {new Date().getFullYear()} SMK DAMANSARA JAYA
                         <br />
                         <Link to="/policy" className="ml-2 mr-1 border-b border-solid">
                             {' '}
@@ -34,7 +34,7 @@ const Footer = () => {
                         </Link>
                     </p>
                     <p className="hidden pt-3  pb-3 text-center text-sm text-white md:order-1 md:mt-0 md:block lg:text-sm">
-                        &copy; {new Date().getFullYear()} FPG Solution & Consultancy Sdn. Bhd.
+                        &copy; {new Date().getFullYear()} -
                         <Link to="/policy" className="ml-2 mr-1 border-b border-solid">
                             Privacy Policy
                         </Link>{' '}
